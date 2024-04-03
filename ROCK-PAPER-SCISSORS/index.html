@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="canvas">
+        <div class="game-container">
+            <h1>Rock Paper Scissors</h1>
+            <div class="options">
+                <img src="icons/hand-rock-o.svg" alt="Rock" class="option" id="rock">
+                <img src="icons/cursor-hand-open-line.svg" alt="Paper" class="option" id="paper">
+                <img src="icons/peace-hand.svg" alt="Scissors" class="option" id="scissors">
+            </div>
+            <div class="result">
+                <span>Player's choice:</span>
+                <div id="player-choice"></div>
+                <span>Computer's choice:</span>
+                <div id="computer-choice"></div>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
